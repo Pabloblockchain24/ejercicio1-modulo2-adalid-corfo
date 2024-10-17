@@ -26,10 +26,9 @@ Para visualizar el proyecto en tu navegador, sigue los siguientes pasos:
 ejercicio1-modulo2-adalid-corfo/
 │
 ├── index.html              # Página principal (Home)
-├── equipo-medico.html       # Página del equipo médico
-├── contacto.html            # Página de contacto
-├── css/
-│   └── styles.css           # Estilos generales del sitio
+├── pages/
+│   └── equipoMedico.html   # Página del equipo médico
+│   └── contacto.html       # Página de contacto              
 ├── img/
 │   └── [imágenes utilizadas en el proyecto]
 └── README.md                # Instrucciones y descripción del proyecto
@@ -37,11 +36,11 @@ ejercicio1-modulo2-adalid-corfo/
 
 ## Explicación de las vistas
 
-- **Home (index.html):** Esta es la página principal del sitio. Contiene una bienvenida a los usuarios y una breve descripción de la clínica médica. Se incluyen enlaces de navegación a las otras secciones del sitio.
+- **Home (index.html):** Esta es la página principal del sitio. Contiene una bienvenida a los usuarios y una breve descripción del Hospital. Se incluyen enlaces de navegación a las otras secciones del sitio.
   
-- **Equipo Médico (equipo-medico.html):** En esta sección se presenta al equipo de médicos de la clínica. Cada miembro tiene su propia descripción, destacando su especialidad y experiencia.
+- **Equipo Médico (equipo-medico.html):** En esta sección se presenta al equipo de médicos del hospital. Cada miembro tiene su propia descripción, destacando su especialidad y experiencia.
 
-- **Contacto (contacto.html):** Aquí se ofrece un formulario de contacto para que los usuarios puedan enviar mensajes o consultas a la clínica. Se incluyen campos como nombre, correo electrónico y mensaje.
+- **Contacto (contacto.html):** Aquí se ofrece un formulario de contacto para que los usuarios puedan enviar mensajes o consultas al hospital. Se incluyen campos como nombre, correo electrónico y mensaje.
 
 ## Créditos
 
