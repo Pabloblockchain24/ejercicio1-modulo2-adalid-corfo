@@ -1,0 +1,521 @@
+/*Estilos globales*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  border: none;
+  font-size: 1rem;
+  list-style-type: none;
+}
+
+/*Estilos para el header */
+a img {
+  width: 80px;
+  box-shadow: 0px 2px 4px 4px rgba(80, 80, 80, 0.5);
+  margin-bottom: 1rem;
+}
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.5rem 10rem;
+  background-color: #5bc0eb;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  justify-content: center;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: center;
+  list-style: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+header li a {
+  color: #ffffff;
+}
+
+header li a:hover {
+  color: #4a721c;
+}
+
+.button-navbar {
+  background-color: #8bc34a;
+  color: #ffffff;
+  padding: 1rem 2rem;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.button-navbar:hover {
+  background-color: #6baa36;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+/* Estilos para el footer */
+
+footer {
+  background-color: #5bc0eb;
+  color: #ffffff;
+  padding-inline: 10rem;
+  padding-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  gap: 5rem;
+  font-weight: bold;
+}
+
+footer section {
+  flex: 1;
+}
+
+footer section h2 {
+  font-size: 1.2rem;
+  margin-bottom: 1.5rem;
+  font-weight: bold;
+  color: #3d3f41;
+}
+
+footer section:nth-child(1) ul {
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+footer section:nth-child(1) ul li {
+  width: 10rem;
+}
+
+footer section:nth-child(1) ul li a {
+  font-size: 1rem;
+  color: white;
+  background-color: #8bc34a;
+  padding: 0.5rem 0.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+footer section:nth-child(1) ul li a:hover {
+  background-color: #6baa36;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+  margin-block: 0.5rem;
+}
+
+footer section:nth-child(3) ul {
+  display: flex;
+  margin-top: 2rem;
+  gap: 1rem;
+}
+
+footer section:nth-child(3) ul li a {
+  color: #e7e5e5;
+  padding: 1rem;
+  background-color: #6baa36;
+}
+
+footer section:nth-child(3) a:hover {
+  background-color: #4a721c;
+}
+
+footer section > h2 {
+  text-align: start;
+}
+
+.footer-line{
+  margin-top: 2rem;
+  height: 2px;
+  width: 100%;
+  background-color: #ffffff;
+  display: none;
+}
+
+/* Estilos para el Index */
+
+main {
+  padding-block: 2rem;
+  padding-inline: 10rem;
+  background-color: #f6f8f8;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-block: 3rem;
+  color: #3d3f41;
+  text-align: center;
+}
+h2 {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-block: 2rem;
+  color: #3d3f41;
+  text-align: center;
+}
+h3 {
+  font-size: 1.5rem;
+  text-align: justify;
+  font-weight: 100;
+}
+
+.index-section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.index-section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-block: 2rem;
+}
+.index-section-1 div {
+  display: flex;
+  flex-direction: row;
+  gap: 5rem;
+}
+
+.index-section-1 div article {
+  padding: 2rem 3rem;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+.index-section-1 div article:hover {
+  background-color: #f6f8f8;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.index-section-2 div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.index-section-2 div article {
+  background-color: #5bc0eb;
+  border-radius: 1rem;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  color: white;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1.5rem;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+.index-section-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-block: 5rem;
+  background-color: #5bc0eb;
+}
+
+.index-section-3 > p {
+  padding-inline: 3rem;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+}
+
+.index-section-3 div {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1.5rem;
+}
+
+.index-section-3 div article {
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  padding: 2rem 3rem;
+  margin: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  align-items: center;
+  text-align: justify;
+  line-height: 1.5rem;
+}
+
+/* Estilos para equipo medico */
+.equipo-medico-container section {
+  padding-inline: 10rem;
+}
+
+.equipo-medico-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.equipo-medico-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  padding-bottom: 2rem;
+}
+
+.equipo-medico-2 article {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 2rem 5rem;
+  background-color: #86c0da;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.equipo-medico-2 article div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+/*Styles for contact*/
+.contacto-container section {
+  padding-inline: 20rem;
+}
+
+.contacto-section-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contacto-section-1 form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+  padding: 2rem 8rem;
+  background-color: #eeeeee;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.contacto-section-1 form div {
+  display: flex;
+}
+
+.contacto-section-1 form div label {
+  padding: 0.5rem;
+  width: 7rem;
+}
+
+.contacto-section-1 form div input,
+.contacto-section-1 form div textarea {
+  padding: 0.5rem;
+  width: 20rem;
+}
+
+.contacto-button {
+  background-color: #5bc0eb9c;
+  color: white;
+  font-weight: bold;
+  padding: 1rem 4rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.contacto-button:hover {
+  background-color: #5bc0eb;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.contacto-section-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-block: 2rem;
+}
+
+/*Media Queries for index.html*/
+@media (max-width: 1200px) {
+  header,
+  main,
+  footer {
+    padding-inline: 8rem;
+  }
+  .equipo-medico-container section {
+    padding-inline: 5rem;
+  }
+}
+@media (max-width: 1024px) {
+  header,
+  main,
+  footer {
+    padding-inline: 5rem;
+  }
+
+  .index-section-1 div,
+  .index-section-2 div,
+  .index-section-3 div,
+  footer,
+  header,
+  nav,  nav ul {
+    flex-direction: column;
+  }
+
+  footer{
+    gap: 0rem;
+    padding-bottom: 2rem;
+  }
+  footer section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  footer section:nth-child(1) ul {
+    text-align: center;
+  }
+  footer section:nth-child(1) ul li {
+    width: 10rem;
+  }
+  footer section:nth-child(3) ul {
+    margin-top: 0.5rem;
+  }
+  
+  .footer-line {
+    display: block;
+  }
+
+  .equipo-medico-container section {
+    padding-inline: 3rem;
+  }
+
+
+}
+
+@media (max-width: 768px) {
+  .contacto-section-1 {
+    padding-inline: 5rem;
+  }
+  .contacto-section-1 form {
+    padding: 2rem 2rem;
+  }
+  .contacto-section-1 form div label {
+    padding: 0.25rem;
+    width: 6rem;
+  }
+  .contacto-section-1 form div input,
+  .contacto-section-1 form div textarea {
+    padding: 0.25rem;
+    width: 15rem;
+  }
+  .contacto-section-2 iframe {
+    width: 450px;
+  }
+  li a{
+    padding: 0.25rem;
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 500px) {
+  header,
+  main,
+  footer {
+    padding-inline: 2rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+  h2 {
+    font-size: 1.2rem;
+  }
+  h3 {
+    font-size: 1rem;
+  }
+  
+
+  .button-navbar {
+    font-size: 0.8rem;
+    padding: 0.5rem 1rem;
+  }
+  .index-section-1 div article {
+    padding: 1rem 1.5rem;
+  }
+  .equipo-medico-container section {
+    padding-inline: 2rem;
+  }
+  .equipo-medico-2 article {
+    flex-direction: column;
+    padding: 2rem;
+  }
+
+  .contacto-container section {
+    padding-inline: 1rem;
+  }
+
+  .contacto-section-2 iframe {
+    width: 350px;
+  }
+}
+
+@media (max-width: 420px) {
+  header,
+  main,
+  footer {
+    padding-inline: 1.25rem;
+  }
+  .contacto-section-1 form {
+    padding: 1rem 1rem;
+  }
+  .contacto-section-1 form div label {
+    padding: 0.25rem;
+    width: 5rem;
+    font-size: small;
+  }
+  .contacto-section-1 form div input,
+  .contacto-section-1 form div textarea {
+    width: 10rem;
+  }
+  .contacto-section-2 iframe {
+    width: 300px;
+  }
+  p{
+    font-size: 0.9rem;
+    line-height: 1.3rem;  
+}
+}

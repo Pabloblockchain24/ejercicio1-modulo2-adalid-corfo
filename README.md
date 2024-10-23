@@ -29,8 +29,10 @@ ejercicio1-modulo2-adalid-corfo/
 ├── pages/
 │   └── equipoMedico.html   # Página del equipo médico
 │   └── contacto.html       # Página de contacto              
-├── img/
+├── assets/img/
 │   └── [imágenes utilizadas en el proyecto]
+├── assets/styles/
+│   └── [Hojas de estilo utilizadas en el proyecto]
 └── README.md                # Instrucciones y descripción del proyecto
 ```
 
